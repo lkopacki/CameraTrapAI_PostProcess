@@ -1,16 +1,25 @@
+#Google CameraTrapAI Post-Processing Script
+#Created by Lukas Kopacki, ArborVox
+
+#Install dependencies. Use 'pip install [package]'
+#if a message indicates the library does not exist
 import json
 import pandas as pd
 import os
 import shutil
 from pathlib import Path
 
-####
-#### INPUT Your desired paths here
-json_file = r"Example.json"
-output_xlsx= r"Example_Path\photo_report.xlsx"
-output_dir = r"ExamplePath\Sorted"
+######################################
+#### INPUT Your desired paths here######
 
-#####
+#This should be the path to the JSON output from the model
+json_file = r"Example.json"
+#thihs should be the desired path to your photo summary
+output_xlsx= r"Example_Path\photo_report.xlsx"
+#This should be the path to where you want the species-sorted folders to wind up
+output_dir = r"ExamplePath\Sorted"
+##################
+#########################################
 
 def extract_filename(filepath):
     """Extract the filename from the full path (everything after the last /)"""

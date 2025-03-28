@@ -2,9 +2,9 @@ Google CameraTrap AI: How- To
 Prepared by Lukas Kopacki, ArborVox
 Contact: lmkopacki@gmail.com
 
-______________________________________________________________________________
-NOTE: Please see attached word document for helpful screenshots and context.  |
- _____________________________________________________________________________|
+
+NOTE: Please see attached word document for helpful screenshots and context.
+
 I.	 Resources
 Project GitHub: google/cameratrapai: AI models trained by Google to classify species in images from motion-triggered widlife cameras.
 Post-Processing Script Github: lkopacki/CameraTrapAI_PostProcess: A script to produce a picture-by-picture species prediction summary, as well as species-based sorting functions.

@@ -1,6 +1,5 @@
 Google CameraTrap AI: How- To
 Prepared by Lukas Kopacki, ArborVox
-Contact: lmkopacki@gmail.com
 
 
 NOTE: Please see attached word document for helpful screenshots and context.
